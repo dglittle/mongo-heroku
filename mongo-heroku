@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-var = `heroku config:get MONGOHQ_URL 2> /dev/null`.strip
+var = `heroku config 2> /dev/null`.strip
 
-if !var.empty? and m = var.match(/^mongodb:\/\/(.+):(.+)@(.+)$/)
+if !var.empty? and m = var.match(/\bmongodb:\/\/(\S+):(\S+)@(\S+)/)
   command = "mongo -u #{m[1]} -p #{m[2]} #{m[3]}"
   exec command
 else
