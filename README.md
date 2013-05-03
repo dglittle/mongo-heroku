@@ -3,7 +3,7 @@ mongo-heroku
 
 program to login to the mongo instance running in the current directory's heroku instance (for Mac OS X)
 
-## Instead Of
+### Instead Of
 
 ```
 > heroku config
@@ -16,7 +16,7 @@ SESSION_SECRET:   kittens
 > mongo -u heroku -p password123 dragon.mongohq.com:1001/app12345
 ```
 
-## Just Do
+### Just Do
 
 ```
 > mongo-heroku
