@@ -1,7 +1,7 @@
 mongo-heroku
 ============
 
-program to login to the mongo instance running in the current directory's heroku instance (for Mac OS X)
+program to login to the mongoDB instance running in the current directory's heroku instance (for Mac OS X)
 
 ### Instead Of
 
