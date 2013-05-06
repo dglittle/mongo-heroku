@@ -3,7 +3,7 @@
 var = `heroku config 2> /dev/null`.strip
 
 if !var.empty? and m = var.match(/\bmongodb:\/\/(\S+):(\S+)@(\S+)/)
-  command = "mongo -u #{m[1]} -p #{m[2]} #{m[3]}"
+  command = "mongo -u #{m[1]} -p #{m[2]} #{m[3]} #{ARGV[0]}"
   exec command
 else
   puts "Error. Run this command from an app folder."
