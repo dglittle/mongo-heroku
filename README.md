@@ -22,8 +22,15 @@ SESSION_SECRET:   kittens
 > mongo-heroku
 ```
 
-## Install
+## Install on Mac
 
-1. Put mongo-heroku on your $PATH to have access from any directory. Check out http://shapeshed.com/using_custom_shell_scripts_on_osx_or_linux/
-2. Run ```chmod +x <path-to-the-script>```
-3. Run ```mongo-heroku``` from any Heroku app directory.
+```
+> curl https://raw.github.com/dglittle/mongo-heroku/master/mongo-heroku -sLo /usr/local/bin/mongo-heroku &&
+  chmod +x /usr/local/bin/mongo-heroku
+```
+
+## Uninstall
+
+```
+rm /usr/local/bin/mongo-heroku
+```
