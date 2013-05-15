@@ -22,14 +22,14 @@ SESSION_SECRET:   kittens
 > mongo-heroku
 ```
 
-## Install on Mac
+### Install on Mac
 
 ```
 curl https://raw.github.com/dglittle/mongo-heroku/master/mongo-heroku -sLo /usr/local/bin/mongo-heroku &&
 chmod +x /usr/local/bin/mongo-heroku
 ```
 
-## Uninstall
+### Uninstall
 
 ```
 rm /usr/local/bin/mongo-heroku
