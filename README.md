@@ -26,7 +26,7 @@ SESSION_SECRET:   kittens
 
 ```
 > curl https://raw.github.com/dglittle/mongo-heroku/master/mongo-heroku -sLo /usr/local/bin/mongo-heroku &&
-chmod +x /usr/local/bin/mongo-heroku
+  chmod +x /usr/local/bin/mongo-heroku
 ```
 
 ### Uninstall
